@@ -18,7 +18,7 @@ namespace DesafioFundamentos.Models
             string placa = Console.ReadLine();
             veiculos.Add(placa);
             
-            Console.WriteLine($"O veículo com a placa: {placa} foi adicionado com sucesso!");           
+            Console.WriteLine($"O veículo com a placa: {placa}, foi adicionado com sucesso!");           
         }
 
 
