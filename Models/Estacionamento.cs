@@ -38,7 +38,7 @@ namespace DesafioFundamentos.Models
                 valorTotal = precoInicial + precoPorHora * horas;
                 veiculos.Remove(placa);
 
-                Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}, Reais!");
+                Console.WriteLine($"O veículo de placa: {placa}, foi removido e o preço total foi de: R$ {valorTotal}, Reais!");
             }
             else
             {
