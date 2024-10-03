@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive\\Área de Trabalho\\DIO-fullstec\\trilha-net-fundamentos-desafio\\DesafioFundamentos\\DesafioFundamentos.csproj": {}
+    "C:\\Users\\User\\OneDrive\\Área de Trabalho\\DesafioFundamentos-DIO\\DesafioFundamentos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive\\Área de Trabalho\\DIO-fullstec\\trilha-net-fundamentos-desafio\\DesafioFundamentos\\DesafioFundamentos.csproj": {
+    "C:\\Users\\User\\OneDrive\\Área de Trabalho\\DesafioFundamentos-DIO\\DesafioFundamentos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\DIO-fullstec\\trilha-net-fundamentos-desafio\\DesafioFundamentos\\DesafioFundamentos.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\DesafioFundamentos-DIO\\DesafioFundamentos.csproj",
         "projectName": "DesafioFundamentos",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\DIO-fullstec\\trilha-net-fundamentos-desafio\\DesafioFundamentos\\DesafioFundamentos.csproj",
+        "projectPath": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\DesafioFundamentos-DIO\\DesafioFundamentos.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\DIO-fullstec\\trilha-net-fundamentos-desafio\\DesafioFundamentos\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\DesafioFundamentos-DIO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
