@@ -18,13 +18,13 @@ namespace DesafioFundamentos.Models
             string placa = Console.ReadLine();
             veiculos.Add(placa);
             
-            Console.WriteLine($"O veículo com a placa: {placa}, foi adicionado com sucesso!");           
+            Console.WriteLine($"O veículo de placa: {placa}, foi adicionado com sucesso!");           
         }
 
 
         public void RemoverVeiculo()
         {
-            Console.WriteLine("Digite a placa do veículo para remover:");
+            Console.WriteLine("Digite a placa do veículo para removelo:");
             string placa = Console.ReadLine();
             // Verifica se o veículo existe
             if (veiculos.Any(x => x.ToUpper() == placa.ToUpper()))
@@ -38,27 +38,28 @@ namespace DesafioFundamentos.Models
                 valorTotal = precoInicial + precoPorHora * horas;
                 veiculos.Remove(placa);
 
-                Console.WriteLine($"O veículo de placa: {placa}, foi removido e o preço total foi de: R$ {valorTotal}, Reais!");
+                Console.WriteLine($"O veículo de placa: {placa}, foi removido e o preço total foi de: R$ {valorTotal}, Reais.");
             }
             else
             {
-                Console.WriteLine("Desculpe, esse veículo não está estacionado aqui. Confira se digitou a placa corretamente");
+                Console.WriteLine("Desculpe, esse veículo não está estacionado aqui. Confira se digitou a placa corretamente!");
             }
         }
         public void ListarVeiculos()
         {
+            //IMPLEMENTADO
             // Verifica se há veículos no estacionamento
             if (veiculos.Any())
             {
                 Console.WriteLine("Os veículos estacionados são:");
                 for (int contador = 0; contador < veiculos.Count; contador++)
                 {
-                    Console.WriteLine($"- Placa: {veiculos[contador]}");
+                    Console.WriteLine($"Placa do veículo - {veiculos[contador]}");
                 }   
             }
             else
             {
-                Console.WriteLine("Não há veículos estacionados.");
+                Console.WriteLine("Não há veículos estacionados no momento!");
             }
         }
     }
