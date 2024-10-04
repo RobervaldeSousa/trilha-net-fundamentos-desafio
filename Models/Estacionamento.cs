@@ -18,7 +18,7 @@ namespace DesafioFundamentos.Models
             string placa = Console.ReadLine();
             veiculos.Add(placa);
             
-            Console.WriteLine($"O veículo com a placa: {placa}, foi adicionado com sucesso!");           
+            Console.WriteLine($"O veículo de placa: {placa}, foi adicionado com sucesso!");           
         }
 
 
@@ -38,11 +38,11 @@ namespace DesafioFundamentos.Models
                 valorTotal = precoInicial + precoPorHora * horas;
                 veiculos.Remove(placa);
 
-                Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}, Reais!");
+                Console.WriteLine($"O veículo de placa: {placa}, foi removido e o preço total foi de: R$ {valorTotal}, Reais!");
             }
             else
             {
-                Console.WriteLine("Desculpe, esse veículo não está estacionado aqui. Confira se digitou a placa corretamente");
+                Console.WriteLine("Desculpe, esse veículo não está estacionado aqui. Confira se digitou a placa corretamente.");
             }
         }
         public void ListarVeiculos()
@@ -58,7 +58,7 @@ namespace DesafioFundamentos.Models
             }
             else
             {
-                Console.WriteLine("Não há veículos estacionados.");
+                Console.WriteLine("Não há veículos estacionados no momento!");
             }
         }
     }
